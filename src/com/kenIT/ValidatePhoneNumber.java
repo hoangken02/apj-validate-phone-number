@@ -4,7 +4,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class ValidatePhoneNumber {
-    private static final String REGEX_PHONE_NUMBER = "^([8][4]-)?([0]\\d{9})$";
+    private static final String REGEX_PHONE_NUMBER = "([(]\\d{2}[)])[-]([(]\\d{10}[)])";
 
     public ValidatePhoneNumber() {
     }
